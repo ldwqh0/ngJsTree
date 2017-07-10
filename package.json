@@ -1,5 +1,5 @@
 {
-  "name": "angularjs-js-tree",
+  "name": "angular-js-tree",
   "version": "0.0.2",
   "description": "Another angularjs 1.5+ jstree component for jstree",
   "main": "dist/angularjs-js-tree.js",
