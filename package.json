@@ -1,0 +1,25 @@
+{
+  "name": "ng-js-tree",
+  "version": "0.0.1",
+  "description": "Another angularjs 1.5+ jstree component for jstree",
+  "main": "dist/ng-js-tree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldwqh0/ngJsTree.git"
+  },
+  "author": "LiDong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldwqh0/ngJsTree/issues"
+  },
+  "homepage": "https://github.com/ldwqh0/ngJsTree#readme",
+  "devDependencies": {
+    "angular": "^1.6.5",
+    "jquery": "^3.2.1",
+    "jstree": "^3.3.4",
+    "webpack": "^3.1.0"
+  }
+}
