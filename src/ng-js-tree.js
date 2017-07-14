@@ -1,7 +1,7 @@
 import './style.css'
 import 'jstree/src/themes/default/style.css'
 import 'jstree'
-
+import angular from 'angular'
 let component = {
   template: '<div></div>',
   controller: JsTreeController,
@@ -13,8 +13,8 @@ let component = {
   }
 }
 
-JsTreeController.$inject = []
-function JsTreeController() {
+JsTreeController.$inject = ['$element', '$log']
+function JsTreeController($element, $log) {
   let ctrl = this
   let tree
   ctrl.$onInit = function () {
