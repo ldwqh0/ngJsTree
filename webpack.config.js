@@ -8,6 +8,9 @@ module.exports = {
     filename: "[name].js",
     libraryTarget: 'umd'
   },
+  externals: {
+    jquery: "jquery"
+  },
   module: {
     rules: [{
       test: /\.jsx?$/,
