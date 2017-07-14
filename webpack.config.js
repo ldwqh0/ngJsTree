@@ -9,7 +9,8 @@ module.exports = {
     libraryTarget: 'umd'
   },
   externals: {
-    jquery: "jquery"
+    jquery: "jquery",
+    angular: "angular"
   },
   module: {
     rules: [{
